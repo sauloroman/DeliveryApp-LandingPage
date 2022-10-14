@@ -27,7 +27,6 @@ gulp
 <br>
 
 <h2>Tools and Technologies</h2>
-<hr>
 
 <ul>
 <li>
@@ -49,6 +48,59 @@ BEM methodology
 <br>
 
 <h2>Sections</h2>
-<hr>
 
 <h3>Hero Section</h3>
+<br>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+<img src="./src/app/screenshots/hero.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/hero-m.jpeg" alt="Hero section" height=300 />
+</div>
+<br>
+
+<h3>Steps Section</h3>
+<br>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+<img src="./src/app/screenshots/steps.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/steps-m.jpeg" alt="Hero section" height=300 />
+</div>
+<br>
+
+<h3>Testimonials Section</h3>
+<br>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+<img src="./src/app/screenshots/testimonials.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/testimonials-m.jpeg" alt="Hero section" height=300 />
+</div>
+<br>
+
+<h3>Favourites Restaurants Section</h3>
+<br>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+<img src="./src/app/screenshots/favourites.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/favourites-m.jpeg" alt="Hero section" height=300 />
+</div>
+<br>
+
+<h3>Food Deliverers Section</h3>
+<br>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+<img src="./src/app/screenshots/delivers.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/delivers-m.jpeg" alt="Hero section" height=300 />
+</div>
+<br>
+
+<h3>Download App Section</h3>
+<br>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+<img src="./src/app/screenshots/download.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/download-m.jpeg" alt="Hero section" height=300 />
+</div>
+<br>
+
+<h3>Footer Section</h3>
+<br>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+<img src="./src/app/screenshots/footer.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/footer-m.jpeg" alt="Hero section" height=300 />
+</div>
+<br>
