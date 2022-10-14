@@ -1,0 +1,68 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.form {
+
+      margin-bottom: calc( v.$general-gap * 2 );
+
+      &__grid {
+            @include m.tablet {
+                  @include m.grid( 2, v.$general-gap );
+            }
+      }
+
+      &__content {
+            margin-bottom: v.$general-gap;
+            background-color: v.$color-primary;
+            padding: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+      }
+
+      &__heading {
+            color: v.$white;
+            text-align: center;
+            margin-bottom: 3rem;
+      }
+
+      &__field {
+            margin-bottom: 2rem;
+      }
+
+      &__label {
+            display: block;
+            text-transform: uppercase;
+            color: v.$white;
+            margin: 1rem 0;
+      }
+
+      &__input {
+            width: 100%;
+            padding: 1.5rem;
+            border: none;
+            font-family: inherit;
+            border-radius: 5px;
+      }
+
+      &__submit {
+            @include m.boton( v.$color-secondary, v.$white );
+
+            @include m.tablet {
+                  width: 100%;
+            }
+      }
+
+      &__image-container {
+            display: flex;
+            justify-content: center;
+      }
+
+      &__image {
+            width: 30rem;
+
+            @include m.desktop {
+                  width: 100%;
+            }
+      }
+}

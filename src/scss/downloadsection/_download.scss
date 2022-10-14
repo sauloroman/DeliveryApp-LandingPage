@@ -1,0 +1,33 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.download {
+      background-color: v.$lightGray;
+      padding: calc( v.$general-gap * 2 ) 0;
+
+      &__grid {
+            @include m.tablet {
+                  @include m.grid(2, v.$general-gap);
+            }
+      }
+
+      &__image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all .4s ease-out;
+            margin-bottom: v.$general-gap;
+            
+            @include m.tablet {
+                  margin-bottom: 0;
+            }
+
+            img {
+                  width: 50%;
+            }
+
+            &:hover {
+                  transform: rotate(4deg) scale(1.2);
+            }
+      }
+}

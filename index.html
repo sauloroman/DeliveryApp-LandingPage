@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>App Delivery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet" /> 
+        <link rel="stylesheet" href="/build/css/main.css" />
+        <link rel="icon" href="/build/img/logo.svg" size="32x32" />
+    </head>
+    <body>
+        
+        <header class="header container">
+            <div class="header__logo">
+                <img src="./build/img/logo.svg" alt="App Logo" />
+            </div>
+
+            <nav class="navigation">
+                <a href="#" class="navigation__link">Iniciar Sesión</a>
+                <a href="#" class="navigation__link">Crear Cuenta</a>
+                <a href="#" class="navigation__link navigation__link--register">Regístrate</a>
+            </nav>
+
+        </header>
+
+        <section class="container form">
+            <div class="form__grid">
+
+                <div class="form__content">
+
+                    <h2 class="form__heading">Encuentra y pide comida de tu restaurante favorito</h2>
+
+                    <form class="form__search">
+
+                        <div class="form__field">
+                            <label 
+                                class="form__label" 
+                                for="restaurant">Restaurante</label>
+                            <input 
+                                class="form__input" 
+                                id="restaurant" 
+                                placeholder="Tacos México"
+                            >
+                        </div>
+
+                        <div class="form__field">
+                            <label 
+                                class="form__label" 
+                                for="plate">Platillo</label>
+                            <input 
+                                class="form__input" 
+                                id="plate" 
+                                placeholder="Pizza, Ensalada, Pasta"
+                            >
+                        </div>
+
+                        <input 
+                            type="submit" 
+                            class="form__submit" 
+                            value="Buscar"
+                        >
+
+                    </form>
+                </div> <!-- .form__content -->
+
+                <div class="form__image-container">
+                    <img class="form__image" src="./build/img/dibujo_repartidor.svg" alt="Imagen repartidor" />
+                </div> <!-- .form__image -->
+
+            </div>
+        </section>
+
+        <section class="steps">
+
+            <img src="./build/img/wave.svg" alt="Red wave" class="steps__wave" />
+
+            <div class="steps__content">
+
+                <h2 class="steps__heading">¿Cómo funciona? <span class="steps__heading--description">Tan fácil como 1, 2 y 3</span></h2>
+
+                <div class="steps__grid container">
+
+                    <picture class="steps__step">
+                        <source srcset="./build/img/paso_1.webp" type="image/webp" />
+                        <source srcset="./build/img/paso_1.avif" type="image/avif" />
+                        <img class="steps__image" src="./build/img/paso_1.png" type="image/png" loading="lazy"  alt="Image paso 1"/>
+                    </picture>
+
+                    <picture class="steps__step">
+                        <source srcset="./build/img/paso_2.webp" type="image/webp" />
+                        <source srcset="./build/img/paso_2.avif" type="image/avif" />
+                        <img class="steps__image" src="./build/img/paso_2.png" type="image/png" loading="lazy"  alt="Image paso 1"/>
+                    </picture>
+
+                    <picture class="steps__step">
+                        <source srcset="./build/img/paso_3.webp" type="image/webp" />
+                        <source srcset="./build/img/paso_3.avif" type="image/avif" />
+                        <img class="steps__image" src="./build/img/paso_3.png" type="image/png" loading="lazy"  alt="Image paso 1"/>
+                    </picture>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container testimonials">
+            <h2 class="testimonials__heading">Testimoniales</h2>
+
+            <div class="testimonials__grid">
+
+                <div class="testimonial">
+
+                    <header class="testimonial__header">
+
+                        <picture class="testimonial__image">
+                            <source srcset='./build/img/testimonial1.webp' type='image/webp' />
+                            <source srcset='./build/img/testimonial1.webp' type='image/avif' type='image/avif' />
+                            <img 
+                                src='./build/img/testimonial1.jpg' 
+                                type='image/jpg' 
+                                loading='lazy' 
+                                alt="User" 
+                            />
+                        </picture>
+
+                        <div class="testimonial__information">
+                            <p class="testimonial__author">Juan Pérez</p>
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img 
+                                    class="testimonial__score" 
+                                    src='./build/img/estrellas.png' 
+                                    type='image/png' 
+                                    loading='lazy' 
+                                    alt="Estrellas" 
+                                />
+                            </picture>
+                        </div>
+
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar en tarjeta o efectivo según me convenga.
+                    </blockquote>
+
+                </div> <!-- .testimonial -->
+
+                <div class="testimonial">
+
+                    <header class="testimonial__header">
+
+                        <picture class="testimonial__image">
+                            <source srcset='./build/img/testimonial5.webp' type='image/webp' />
+                            <source srcset='./build/img/testimonial5.webp' type='image/avif' type='image/avif' />
+                            <img 
+                                src='./build/img/testimonial5.jpg' 
+                                type='image/jpg' 
+                                loading='lazy' 
+                                alt="User" 
+                            />
+                        </picture>
+
+                        <div class="testimonial__information">
+                            <p class="testimonial__author">Itzel Cruz</p>
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img 
+                                    class="testimonial__score" 
+                                    src='./build/img/estrellas.png' 
+                                    type='image/png' 
+                                    loading='lazy' 
+                                    alt="Estrellas" 
+                                />
+                            </picture>
+                        </div>
+
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Me ha facilitado mis tareas del hogar.
+                    </blockquote>
+
+                </div> <!-- .testimonial -->
+
+                <div class="testimonial">
+
+                    <header class="testimonial__header">
+
+                        <picture class="testimonial__image">
+                            <source srcset='./build/img/testimonial4.webp' type='image/webp' />
+                            <source srcset='./build/img/testimonial4.webp' type='image/avif' type='image/avif' />
+                            <img 
+                                src='./build/img/testimonial4.jpg' 
+                                type='image/jpg' 
+                                loading='lazy' 
+                                alt="User" 
+                            />
+                        </picture>
+
+                        <div class="testimonial__information">
+                            <p class="testimonial__author">Danna Janeth</p>
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img 
+                                    class="testimonial__score" 
+                                    src='./build/img/estrellas.png' 
+                                    type='image/png' 
+                                    loading='lazy' 
+                                    alt="Estrellas" 
+                                />
+                            </picture>
+                        </div>
+
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Puedo encontrar todos mis restaurantes favoritos y me sorprende lo rápido que es el servicio.
+                    </blockquote>
+
+                </div> <!-- .testimonial -->
+
+                <div class="testimonial">
+
+                    <header class="testimonial__header">
+
+                        <picture class="testimonial__image">
+                            <source srcset='./build/img/testimonial2.webp' type='image/webp' />
+                            <source srcset='./build/img/testimonial2.webp' type='image/avif' type='image/avif' />
+                            <img 
+                                src='./build/img/testimonial2.jpg' 
+                                type='image/jpg' 
+                                loading='lazy' 
+                                alt="User" 
+                            />
+                        </picture>
+
+                        <div class="testimonial__information">
+                            <p class="testimonial__author">Cynthia V.</p>
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img 
+                                    class="testimonial__score" 
+                                    src='./build/img/estrellas.png' 
+                                    type='image/png' 
+                                    loading='lazy' 
+                                    alt="Estrellas" 
+                                />
+                            </picture>
+                        </div>
+
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        No tengo tiempo para cocinar, solo dejo que mi App Comida haga el resto. Tiene las mejores opciones para mí.
+                    </blockquote>
+
+                </div> <!-- .testimonial -->
+
+                <div class="testimonial">
+
+                    <header class="testimonial__header">
+
+                        <picture class="testimonial__image">
+                            <source srcset='./build/img/testimonial3.webp' type='image/webp' />
+                            <source srcset='./build/img/testimonial3.webp' type='image/avif' type='image/avif' />
+                            <img 
+                                src='./build/img/testimonial3.jpg' 
+                                type='image/jpg' 
+                                loading='lazy' 
+                                alt="User" 
+                            />
+                        </picture>
+
+                        <div class="testimonial__information">
+                            <p class="testimonial__author">Jose Hernandez</p>
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img 
+                                    class="testimonial__score" 
+                                    src='./build/img/estrellas.png' 
+                                    type='image/png' 
+                                    loading='lazy' 
+                                    alt="Estrellas" 
+                                />
+                            </picture>
+                        </div>
+
+                    </header>
+
+                    <blockquote class="testimonial__text">
+                        Todos los repartidores son muy amables y sin duda se ha vuelto mi aplicación favorita.
+                    </blockquote>
+
+                </div> <!-- .testimonial -->
+
+            </div>
+
+        </section>
+
+        <main class="favourites">
+
+            <h2 class="favourites__heading">Restaurantes Favoritos</h2>
+
+            <div class="favourites__grid container">
+
+                <div class="favourite">
+
+                    <div class="favourite__grid">
+
+                        <picture>
+                            <source srcset='./build/img/logo_ensaladas.webp' type='image/webp' />
+                            <source srcset='./build/img/logo_ensaladas.avif' type='image/avif' />
+                            <img class="favourite__image" src='./build/img/logo_ensaladas.png' type='image/png' loading='lazy' alt="logo de restaurante" />
+                        </picture>
+
+                        <div class="favourite__content">
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img src='./build/img/estrellas.png' type='image/png' loading='lazy' alt="calificación del restaurante" />
+                            </picture>
+
+                            <h3 class="favourite__name">Green Ensaladas</h3>
+                            <p class="favourite__description">Moderno restaurante para tus gustos vegetarianos.</p>
+
+                        </div>
+
+                    </div>
+
+                </div> <!-- .favourite -->
+
+                <div class="favourite">
+
+                    <div class="favourite__grid">
+
+                        <picture>
+                            <source srcset='./build/img/logo_ensaladas.webp' type='image/webp' />
+                            <source srcset='./build/img/logo_ensaladas.avif' type='image/avif' />
+                            <img class="favourite__image" src='./build/img/logo_ensaladas.png' type='image/png' loading='lazy' alt="logo de restaurante" />
+                        </picture>
+
+                        <div class="favourite__content">
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img src='./build/img/estrellas.png' type='image/png' loading='lazy' alt="calificación del restaurante" />
+                            </picture>
+
+                            <h3 class="favourite__name">Green Ensaladas</h3>
+                            <p class="favourite__description">Moderno restaurante para tus gustos vegetarianos.</p>
+
+                        </div>
+
+                    </div>
+
+                </div> <!-- .favourite -->
+
+                <div class="favourite">
+
+                    <div class="favourite__grid">
+
+                        <picture >
+                            <source srcset='./build/img/logo_ensaladas.webp' type='image/webp' />
+                            <source srcset='./build/img/logo_ensaladas.avif' type='image/avif' />
+                            <img class="favourite__image" src='./build/img/logo_ensaladas.png' type='image/png' loading='lazy' alt="logo de restaurante" />
+                        </picture>
+
+                        <div class="favourite__content">
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img src='./build/img/estrellas.png' type='image/png' loading='lazy' alt="calificación del restaurante" />
+                            </picture>
+
+                            <h3 class="favourite__name">Green Ensaladas</h3>
+                            <p class="favourite__description">Moderno restaurante para tus gustos vegetarianos.</p>
+
+                        </div>
+
+                    </div>
+
+                </div> <!-- .favourite -->
+
+                <div class="favourite">
+
+                    <div class="favourite__grid">
+
+                        <picture>
+                            <source srcset='./build/img/logo_ensaladas.webp' type='image/webp' />
+                            <source srcset='./build/img/logo_ensaladas.avif' type='image/avif' />
+                            <img class="favourite__image" src='./build/img/logo_ensaladas.png' type='image/png' loading='lazy' alt="logo de restaurante" />
+                        </picture>
+
+                        <div class="favourite__content">
+                            
+                            <picture>
+                                <source srcset='./build/img/estrellas.webp' type='image/webp' />
+                                <source srcset='./build/img/estrellas.avif' type='image/avif' />
+                                <img  src='./build/img/estrellas.png' type='image/png' loading='lazy' alt="calificación del restaurante" />
+                            </picture>
+
+                            <h3 class="favourite__name">Green Ensaladas</h3>
+                            <p class="favourite__description">Moderno restaurante para tus gustos vegetarianos.</p>
+
+                        </div>
+
+                    </div>
+
+                </div> <!-- .favourite -->
+
+            </div> <!-- .favourites__grid -->
+
+        </main> <!-- .favourites -->
+
+        <section class="delivers">
+            <h2 class="delivers__heading">Gana dinero con AppComida</h2>
+
+            <div class="delivers__grid container">
+                
+                <picture class="delivers__image">
+                    <source srcset='./build/img/repartidor.webp' type='image/webp' />
+                    <source srcset='./build/img/repartidor.avif' type='image/avif' />
+                    <img src='./build/img/repartidor.jpg' type='image/jpg' loading='lazy' alt="Imagen repartidor"/>
+                </picture>
+
+                <div class="delivers__content">
+
+                    <p class="delivers__text">Si quieres ganar dinero con nosotros no esperes más. ¡Únete a nuestro equipo de repartidores y comienza a generar!</p>
+                    <p class="delivers__text">Ponte en contacto con nosotros para conocer más sobre las vacantes de repartidor. ¡Eres tú a quien buscamos!</p>
+
+                    <a href="#" class="delivers__link">¡A repartir!</a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="download">
+            <div class="download__grid container">
+                
+                <picture class="download__image">
+                    <source srcset='./build/img/app.webp' type='image/webp' />
+                    <source srcset='./build/img/app.avif' type='image/avif' />
+                    <img src='./build/img/app.png' type='image/png' loading='lazy' alt="Phone image app"/>
+                </picture>
+
+                <div class="stores">
+                    <h3 class="stores__heading">Descarga la App</h3>
+                    <p class="stores__text">Disponible para Android y iOS</p>
+
+                    <div class="stores__grid">
+                        <a href="#" class="stores__link">
+                            <img src="./build/img/tienda-apple.svg" alt="AppleStore logo">
+                        </a>
+                        <a href="#" class="stores__link">
+                            <img src="./build/img/tienda-android.svg" alt="PlayStore logo">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__grid container">
+
+                <div class="footer__widget">
+                    <h3 class="footer__heading">Nosotros</h3>
+                    <p class="footer__text">Somos una empresa socialmente responsable. Conoce nuestra misión, visión y valores.</p>
+                </div>
+
+                <div class="footer__widget">
+                    <h3 class="footer__heading">Navegación</h3>
+                    <nav class="footer__nav">
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Proyectos</a></li>
+                            <li><a href="#" class="footer__link">Alianzas</a></li>
+                            <li><a href="#" class="footer__link">Cocina</a></li>
+                            <li><a href="#" class="footer__link">Personal</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="footer__widget">
+                    <h3 class="footer__heading">Contacto</h3>
+                    <p class="footer__text">Estamos abiertos a todo el mundo. Si quieres recomendar algo, contáctanos en: <a href="mailto: romansantillan1998@outlook.com">romansantillan1998@outlook.com</a></p>
+                </div>
+            </div>
+            <p class="footer__copyright">
+                AppComida. Todos los derechos reservados &copy; 2022
+            </p>
+        </footer>
+
+    </body>
+</html>

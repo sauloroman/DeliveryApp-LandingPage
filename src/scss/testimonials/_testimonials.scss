@@ -1,0 +1,17 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.testimonials {
+
+      &__heading {
+            margin-bottom: v.$general-gap;
+      }
+
+      &__grid {
+            @include m.tablet {
+                  @include m.grid(5, 2rem);
+            }
+      }
+
+      margin-bottom: calc( v.$general-gap * 2);
+}

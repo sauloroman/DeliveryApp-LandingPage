@@ -1,0 +1,52 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.steps {
+
+      margin-bottom: calc( v.$general-gap * 2 );
+
+      &__content {
+            background-color: v.$color-primary;
+            margin-top: -1px;
+      }
+
+      &__heading {
+
+            text-align: center;
+            color: v.$white;
+            padding: 3rem 0;
+            
+            &--description {
+                  margin-top: 1.5rem;
+                  display: block;
+                  font-size: 1.8rem;
+            }
+
+      }
+
+      &__grid {
+            @include m.tablet {
+                  @include m.grid( 3, v.$general-gap );
+            }
+      }
+
+      &__image {
+            
+            width: 60%;
+            margin: 0 auto;
+            transition: all .4s ease-out;
+
+            @include m.tablet {
+                  width: 90%;
+            }
+
+            @include m.desktop {
+                  width: 100%;
+            }
+
+            &:hover {
+                  transform: rotate(-4deg) scale(1.2);
+            }
+
+      }
+}

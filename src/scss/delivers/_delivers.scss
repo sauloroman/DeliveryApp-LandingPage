@@ -1,0 +1,37 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.delivers {
+      padding: 0 0 v.$general-gap 0;
+      margin-bottom: calc( v.$general-gap * 2);
+
+      &__heading {
+            text-align: center;
+            color: v.$color-secondary;
+            margin-bottom: v.$general-gap;
+      }
+
+      &__grid {
+            @include m.tablet {
+                  @include m.grid ( 2, v.$general-gap );
+            }
+      }
+
+      &__content {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            font-size: 1.6rem;
+      }
+
+      &__text {
+            color: v.$color-secondary;
+            margin-bottom: 2rem;
+      }
+
+      &__link {
+            @include m.boton( v.$color-primary, v.$white );
+      }
+}

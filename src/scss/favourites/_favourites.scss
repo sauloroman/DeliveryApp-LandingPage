@@ -1,0 +1,20 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.favourites {
+      background-color: v.$lightGray;
+      padding: v.$general-gap 0;
+      margin-bottom: calc( v.$general-gap * 2);
+
+      &__heading {
+            text-align: center;
+            color: v.$color-secondary;
+            margin-bottom: v.$general-gap;
+      }
+
+      &__grid {
+            @include m.tablet {
+                  @include m.grid( 2, 4rem );
+            }
+      }
+}
