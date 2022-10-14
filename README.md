@@ -52,8 +52,8 @@ BEM methodology
 <h3>Desktop size</h3>
 <br>
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
-<img src="./src/app/screenshots/hero.png" alt="Hero section" width=500 />
-<img src="./src/app/screenshots/steps.png" alt="Steps section" width=500 />
+<img src="./src/app/screenshots/hero.png" alt="Hero section" width=400 />
+<img src="./src/app/screenshots/steps.png" alt="Steps section" width=400 />
 <img src="./src/app/screenshots/testimonials.png" alt="Testimonials section" width=400 />
 <img src="./src/app/screenshots/favourites.png" alt="Favourites section" width=400 />
 <img src="./src/app/screenshots/delivers.png" alt="Delivers section" width=400 />
@@ -64,13 +64,13 @@ BEM methodology
 
 <h3>Phone size</h3>
 <br>
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
-<img src="./src/app/screenshots/hero-m.jpeg" alt="Hero section" width=500 />
-<img src="./src/app/screenshots/steps-m.jpeg" alt="Steps section" width=500 />
-<img src="./src/app/screenshots/testimonials-m.jpeg" alt="Testimonials section" width=400 />
-<img src="./src/app/screenshots/favourites-m.jpeg" alt="Favourites section" width=400 />
-<img src="./src/app/screenshots/delivers-m.jpeg" alt="Delivers section" width=400 />
-<img src="./src/app/screenshots/download-m.jpeg" alt="Download section" width=400 />
-<img src="./src/app/screenshots/footer-m.jpeg" alt="Footer section" width=400 />
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; place-items: center;">
+<img src="./src/app/screenshots/hero-m.jpeg" alt="Hero section" height=300 />
+<img src="./src/app/screenshots/steps-m.jpeg" alt="Steps section" height=300 />
+<img src="./src/app/screenshots/testimonials-m.jpeg" alt="Testimonials section" height=300 />
+<img src="./src/app/screenshots/favourites-m.jpeg" alt="Favourites section" height=300 />
+<img src="./src/app/screenshots/delivers-m.jpeg" alt="Delivers section" height=300 />
+<img src="./src/app/screenshots/download-m.jpeg" alt="Download section" height=300 />
+<img src="./src/app/screenshots/footer-m.jpeg" alt="Footer section" height=300 />
 </div>
 <br>
