@@ -3,7 +3,7 @@
 
 .footer {
       background-color: v.$color-secondary;
-      padding: v.$general-gap 0;
+      padding-top: v.$general-gap;
 
       &__grid {
             @include m.tablet {
@@ -62,8 +62,10 @@
       }
 
       &__copyright {
+            margin-top: v.$general-gap;
             background-color: v.$color-primary;
             color: v.$white;
+            font-size: 1.4rem;
             width: 100%;
             text-align: center;
             padding: 1rem 1rem 2rem 1rem;
