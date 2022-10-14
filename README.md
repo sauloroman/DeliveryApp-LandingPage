@@ -49,58 +49,28 @@ BEM methodology
 
 <h2>Sections</h2>
 
-<h3>Hero Section</h3>
+<h3>Desktop size</h3>
 <br>
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
-<img src="./src/app/screenshots/hero.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/hero-m.jpeg" alt="Hero section" height=300 />
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+<img src="./src/app/screenshots/hero.png" alt="Hero section" width=500 />
+<img src="./src/app/screenshots/steps.png" alt="Steps section" width=500 />
+<img src="./src/app/screenshots/testimonials.png" alt="Testimonials section" width=400 />
+<img src="./src/app/screenshots/favourites.png" alt="Favourites section" width=400 />
+<img src="./src/app/screenshots/delivers.png" alt="Delivers section" width=400 />
+<img src="./src/app/screenshots/download.png" alt="Download section" width=400 />
+<img src="./src/app/screenshots/footer.png" alt="Footer section" width=400 />
 </div>
 <br>
 
-<h3>Steps Section</h3>
+<h3>Phone size</h3>
 <br>
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
-<img src="./src/app/screenshots/steps.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/steps-m.jpeg" alt="Hero section" height=300 />
-</div>
-<br>
-
-<h3>Testimonials Section</h3>
-<br>
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
-<img src="./src/app/screenshots/testimonials.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/testimonials-m.jpeg" alt="Hero section" height=300 />
-</div>
-<br>
-
-<h3>Favourites Restaurants Section</h3>
-<br>
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
-<img src="./src/app/screenshots/favourites.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/favourites-m.jpeg" alt="Hero section" height=300 />
-</div>
-<br>
-
-<h3>Food Deliverers Section</h3>
-<br>
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
-<img src="./src/app/screenshots/delivers.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/delivers-m.jpeg" alt="Hero section" height=300 />
-</div>
-<br>
-
-<h3>Download App Section</h3>
-<br>
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
-<img src="./src/app/screenshots/download.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/download-m.jpeg" alt="Hero section" height=300 />
-</div>
-<br>
-
-<h3>Footer Section</h3>
-<br>
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
-<img src="./src/app/screenshots/footer.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/footer-m.jpeg" alt="Hero section" height=300 />
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+<img src="./src/app/screenshots/hero-m.jpeg" alt="Hero section" width=500 />
+<img src="./src/app/screenshots/steps-m.jpeg" alt="Steps section" width=500 />
+<img src="./src/app/screenshots/testimonials-m.jpeg" alt="Testimonials section" width=400 />
+<img src="./src/app/screenshots/favourites-m.jpeg" alt="Favourites section" width=400 />
+<img src="./src/app/screenshots/delivers-m.jpeg" alt="Delivers section" width=400 />
+<img src="./src/app/screenshots/download-m.jpeg" alt="Download section" width=400 />
+<img src="./src/app/screenshots/footer-m.jpeg" alt="Footer section" width=400 />
 </div>
 <br>
