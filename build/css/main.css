@@ -527,7 +527,7 @@ h3 {
 
 .footer {
   background-color: #455a64;
-  padding: 5rem 0 0 0;
+  padding: 5rem 0;
 }
 @media (min-width: 768px) {
   .footer__grid {
@@ -543,6 +543,7 @@ h3 {
   margin-bottom: 0;
 }
 .footer__widget:nth-child(3) a {
+  font-weight: bold;
   color: #e8505b;
 }
 .footer__heading {
