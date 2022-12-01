@@ -1,4 +1,6 @@
-<h1>DeliveryApp &mdash; Landing Page</h1>
+<h1>DeliveryApp &mdash; Landing Page 🛵</h1>
+
+<img src="./src/design/DeliveryApp-coverpage.png" width="700" alt="DeliverApp coverpage" />
 
 <p>This responsive landing page is about a startup called "AppComida" that uses a mobile app to order food. It has seven sections with information related to the application, some animations and a nice design.</p>
 
@@ -47,30 +49,20 @@ BEM methodology
 </ul>
 <br>
 
-<h2>Sections</h2>
+## UI Considerations
 
-<h3>Desktop size</h3>
-<br>
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
-<img src="./src/app/screenshots/hero.png" alt="Hero section" width=400 />
-<img src="./src/app/screenshots/steps.png" alt="Steps section" width=400 />
-<img src="./src/app/screenshots/testimonials.png" alt="Testimonials section" width=400 />
-<img src="./src/app/screenshots/favourites.png" alt="Favourites section" width=400 />
-<img src="./src/app/screenshots/delivers.png" alt="Delivers section" width=400 />
-<img src="./src/app/screenshots/download.png" alt="Download section" width=400 />
-<img src="./src/app/screenshots/footer.png" alt="Footer section" width=400 />
-</div>
-<br>
+Colors: 
 
-<h3>Phone size</h3>
-<br>
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; place-items: center;">
-<img src="./src/app/screenshots/hero-m.jpeg" alt="Hero section" height=300 />
-<img src="./src/app/screenshots/steps-m.jpeg" alt="Steps section" height=300 />
-<img src="./src/app/screenshots/testimonials-m.jpeg" alt="Testimonials section" height=300 />
-<img src="./src/app/screenshots/favourites-m.jpeg" alt="Favourites section" height=300 />
-<img src="./src/app/screenshots/delivers-m.jpeg" alt="Delivers section" height=300 />
-<img src="./src/app/screenshots/download-m.jpeg" alt="Download section" height=300 />
-<img src="./src/app/screenshots/footer-m.jpeg" alt="Footer section" height=300 />
-</div>
-<br>
+ * Primary: #e8505b
+ * Secondary: #455a64
+ * Gray: #eceeef
+ * Black: #000000
+ * White: #ffffff
+
+Breaking Points:
+
+This app was developed following "mobile first" principle.
+
+ * Phone: 480px
+ * Tablet: 768px
+ * Desktop: 1024px
